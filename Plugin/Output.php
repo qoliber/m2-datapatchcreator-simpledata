@@ -1,20 +1,20 @@
 <?php
 /**
- * Copyright © Q-Solutions Studio: eCommerce Nanobots. All rights reserved.
+ * Copyright © Qoliber. All rights reserved.
  *
- * @category    Nanobots
- * @package     Nanobots_DataPatchCreatorSimpleData
- * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com
+ * @category    Qoliber
+ * @package     Qoliber_DataPatchCreatorSimpleData
+ * @author      Jakub Winkler <jwinkler@qoliber.com
  */
 
-namespace Nanobots\DataPatchCreatorSimpleData\Plugin;
+namespace Qoliber\DataPatchCreatorSimpleData\Plugin;
 
 use Magento\Framework\Module\Dir as ModuleDir;
 
 class Output
 {
     /** @var string  */
-    public const MODULE = 'Nanobots_DataPatchCreatorSimpleData';
+    public const MODULE = 'Qoliber_DataPatchCreatorSimpleData';
 
     /** @var ModuleDir  */
     protected ModuleDir $moduleDir;
@@ -29,13 +29,13 @@ class Output
     }
 
     /**
-     * @param \Nanobots\DataPatchCreator\Helper\Output $subject
+     * @param \Qoliber\DataPatchCreator\Helper\Output $subject
      * @param callable $proceed
      * @param string $templateFile
      * @return string
      */
     public function aroundGetTemplateFile(
-        \Nanobots\DataPatchCreator\Helper\Output $subject,
+        \Qoliber\DataPatchCreator\Helper\Output $subject,
         callable $proceed,
         string $templateFile
     ): string

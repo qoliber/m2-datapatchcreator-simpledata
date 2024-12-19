@@ -1,7 +1,7 @@
 <?php
 /**
- * Created with Nanobots_DataPatchCreatorSimpleData
- * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com>
+ * Created with Qoliber_DataPatchCreatorSimpleData
+ * @author      Jakub Winkler <jwinkler@qoliber.com>
  *
  * @category    {{var namespace}}
  * @package     {{var namespace}}_{{var module}}

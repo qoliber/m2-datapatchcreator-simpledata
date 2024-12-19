@@ -1,31 +1,29 @@
 {
-    "name": "enanobots/m2-datapatchcreator-simpledata",
-    "description": "Magento 2 Data Patch creator - Mark Shust Simple Data Compatibility>",
-    "homepage": "https://github.com/enanobots/m2-datapatchcreator-simpledata",
-    "type": "magento2-module",
-    "license": "MIT",
+    "name": "qoliber/m2-datapatchcreator-simpledata",
+    "version": "2.0.0",
+    "source": {
+        "type": "git",
+        "url": "git@github.com:qoliber/m2-datapatchcreator-simpledata.git",
+        "reference": "master"
+    },
     "authors": [
         {
-            "email": "nanobotsecommerce@gmail.com",
-            "name": "eCommerce Nanobots"
-        },
-        {
-            "name": "Jakub Winkler",
-            "email": "jwinkler@qsolutionsstudio.com"
+            "name": "qoliber",
+            "email": "info@qoliber.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": "~7.3.0||~7.4.0",
-        "enanobots/m2-datapatchcreator": "*",
+        "php": ">=8.1.0",
+        "qoliber/datapatchcreator": "*",
         "markshust/magento2-module-simpledata": "*"
     },
+    "license": "MIT",
     "autoload": {
         "files": [
-            "src/registration.php"
+            "registration.php"
         ],
         "psr-4": {
-            "Nanobots\\DataPatchCreatorSimpleData\\": "src/"
+            "Qoliber\\DataPatchCreatorSimpleData\\": ""
         }
     }
 }

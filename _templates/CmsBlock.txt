@@ -1,7 +1,7 @@
 <?php
 /**
- * Created with Nanobots_DataPatchCreatorSimpleData
- * @author      Jakub Winkler <jwinkler@qsolutionsstudio.com>
+ * Created with Qoliber_DataPatchCreatorSimpleData
+ * @author      Jakub Winkler <jwinkler@qoliber.com>
  *
  * @category    {{var namespace}}
  * @package     {{var namespace}}_{{var module}}
@@ -17,6 +17,6 @@ class {{var class}} extends SimpleDataPatch
 {
     public function apply(): void
     {
-        $this->page->save({{var pageData}});
+        $this->block->save({{var blockData}});
     }
 }

@@ -10,13 +10,13 @@
 
 Installation is via `composer`
 ```
-composer require enanobots/m2-datapatchcreator-simpledata
+composer require qoliber/m2-datapatchcreator-simpledata
 ```
 
 After installing the packages, enable all modules with:
 
 ```
-php bin/magento module:enable Nanobots_DataPatchCreatorSimpleData Nanobots_DataPatchCreator MarkShust_SimpleData
+php bin/magento module:enable Qoliber_DataPatchCreatorSimpleData Qoliber_DataPatchCreator MarkShust_SimpleData
 ```
 
 Then run:
@@ -25,7 +25,7 @@ php bin/magento setup:upgrade
 ```
 
 ### Requirements:
-* Main Package: https://packagist.org/packages/enanobots/m2-datapatchcreator (installed with the module)
+* Main Package: https://packagist.org/packages/qoliber/datapatchcreator (installed with the module)
 * SimpleData module: https://packagist.org/packages/markshust/magento2-module-simpledata (installed with the module)
 * `PHP 7.3` or higher
 * `Magento 2.3.x` or higher
@@ -35,4 +35,4 @@ php bin/magento setup:upgrade
 * `Magento 2.4.x` OpenSource
 
 ### Suggested Packages:
-* PageBuilder Compatibility: https://github.com/enanobots/m2-datapatchcreator-pagebuilder-compatibility
+* PageBuilder Compatibility: https://github.com/qoliber/datapatchcreator-pagebuilder-compatibility
