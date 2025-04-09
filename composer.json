@@ -1,6 +1,6 @@
 {
     "name": "qoliber/m2-datapatchcreator-simpledata",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "source": {
         "type": "git",
         "url": "git@github.com:qoliber/m2-datapatchcreator-simpledata.git",
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=8.1.0",
-        "qoliber/datapatchcreator": "*",
+        "qoliber/m2-datapatchcreator": "*",
         "markshust/magento2-module-simpledata": "*"
     },
     "license": "MIT",
